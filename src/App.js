@@ -26,11 +26,10 @@ class App extends React.Component {
             console.log(data);
 
 
-
             let sunset = data.sys.sunset;
             let sunrise = data.sys.sunrise;
             let sunrise_date = new Date(sunrise * 1000).toISOString().substr(11, 8);
-            let sunset_date = new Date(sunset * 1000 ).toISOString().substr(11, 8);
+            let sunset_date = new Date(sunset * 1000).toISOString().substr(11, 8);
 
             this.setState({
                 temp: data.main.temp,
@@ -38,7 +37,16 @@ class App extends React.Component {
                 country: data.sys.country,
                 sunrise: sunrise_date,
                 sunset: sunset_date,
-                error: ""
+                error: undefined
+            });
+        } else {
+            this.setState({
+                temp: undefined,
+                city: undefined,
+                country: undefined,
+                sunrise: undefined,
+                sunset: undefined,
+                error: "ведите название города"
             });
         }
     };
@@ -46,8 +54,8 @@ class App extends React.Component {
     render() {
         return (
             <div>
-                <Info />
-                <Form weatherMethod={this.gettingWeather} />
+                <Info/>
+                <Form weatherMethod={this.gettingWeather}/>
                 <Weather
                     temp={this.state.temp}
                     city={this.state.city}
