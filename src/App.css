@@ -26,7 +26,6 @@ body {
 }
 
 .info {
-    min-height: 50vh;
     background: url("img/polygon.jpg") center center no-repeat;
     background-blend-mode: multiply;
     background-color: #484747;
@@ -41,15 +40,14 @@ body {
 }
 
 form {
-    padding-top: 7em;
+    padding-top: 6em;
 }
 
 .form {
-    min-height: 50vh;
     border-top: 2px solid #113a65;
     border-bottom: 2px solid #113a65;
     border-right: 2px solid #113a65;
-    /*padding: 5em 1em 1em;*/
+    padding: 1em;
     background: rgba(45, 176, 224, 1);
     background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(45, 176, 224, 1)), color-stop(100%, rgba(96, 40, 168, 1)));
     background: linear-gradient(45deg, rgba(45, 176, 224, 1) 0%, rgba(96, 40, 168, 1) 100%);
@@ -116,7 +114,8 @@ button:active {
 .infoWeath {
     font-size: 20px;
     color: #fff;
-    margin-top: 3em;
+    margin-top: 2em;
+    height: 9em;
 }
 
 .error {
