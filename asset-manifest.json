@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/cities/static/css/main.24f8a278.chunk.css",
+    "main.css": "/cities/static/css/main.7b173fb8.chunk.css",
     "main.js": "/cities/static/js/main.cf4a3c88.chunk.js",
     "main.js.map": "/cities/static/js/main.cf4a3c88.chunk.js.map",
     "runtime~main.js": "/cities/static/js/runtime~main.16a6382e.js",
@@ -9,10 +9,10 @@
     "static/js/2.e597a5a4.chunk.js": "/cities/static/js/2.e597a5a4.chunk.js",
     "static/js/2.e597a5a4.chunk.js.map": "/cities/static/js/2.e597a5a4.chunk.js.map",
     "index.html": "/cities/index.html",
-    "precache-manifest.839d64c89d68e7a131be0ad81e1aff42.js": "/cities/precache-manifest.839d64c89d68e7a131be0ad81e1aff42.js",
+    "precache-manifest.e044e3c3b3529a4e2d527919da553157.js": "/cities/precache-manifest.e044e3c3b3529a4e2d527919da553157.js",
     "service-worker.js": "/cities/service-worker.js",
     "static/css/2.266e55a5.chunk.css.map": "/cities/static/css/2.266e55a5.chunk.css.map",
-    "static/css/main.24f8a278.chunk.css.map": "/cities/static/css/main.24f8a278.chunk.css.map",
+    "static/css/main.7b173fb8.chunk.css.map": "/cities/static/css/main.7b173fb8.chunk.css.map",
     "static/media/App.css": "/cities/static/media/polygon.cc54c19b.jpg"
   }
 }
