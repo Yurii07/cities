@@ -148,11 +148,17 @@ button:active {
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
+    .wrapper {
+        height: auto;
+    }
+    .form {
+        height: 70vh;
+    }
     form {
         display: flex;
         flex-direction: column;
         padding-top: 0;
-        height: 70vh;
+        /*height: 70vh;*/
     }
 
     input[type="text"] {
@@ -162,7 +168,7 @@ button:active {
     }
 
     .info {
-        min-height: 30vh;
+        height: 30vh;
     }
     .infoWeath {
         margin-top: 1em;
