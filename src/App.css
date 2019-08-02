@@ -152,6 +152,7 @@ button:active {
         display: flex;
         flex-direction: column;
         padding-top: 0;
+        height: 70vh;
     }
 
     input[type="text"] {
